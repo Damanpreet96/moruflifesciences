@@ -827,6 +827,19 @@ div#banner-form .contact-cls button {
     margin-top: 22px;
 }
 }
+nav.navbar.navbar-expand-lg.bg-body-tertiary.fixed {
+    position: fixed !important;
+    top: 0 !important;
+    transition: 0.2s cubic-bezier(0, 0.54, 0, 1.08) all;
+    width: 100% !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #fff;
+    z-index: 9999;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary.fixed img {
+    width: 120px;
+    transition: 0.2s;
+}
 /* nav.navbar.navbar-expand-lg.bg-body-tertiary {
     padding: 0 !important;
     position: absolute;
