@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="icon" type="images/png" sizes="32x32" href="images/favicon.png">
   <title>Moruf Lifesciences</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -74,7 +74,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
+              <a class="nav-link" href="#about-us">About Us</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link " href="#product-range">
@@ -83,7 +83,7 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">PCD Pharma</a>
+              <a class="nav-link" href="#pharma-pcd">PCD Pharma</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Us</a>
@@ -100,22 +100,49 @@
   <!-- <end of header> -->
 
   <!-- <banner> -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/Banner-2.webp" class="d-block w-100" alt="banner">      </div>
-
-     
+    <div class="banner-slide"></div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/welcome-banner-new.png" class="d-block w-100" alt="...">
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="carousel-item">
+      <img src="images/Banner-For-ws.jpg" class="d-block w-100" alt="...">
+    </div>
+   
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ <div class="form-banner p-3 d-flex align-items-center " id="form-banner">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-md-4 form-color p-4 rounded-4">
+          <form action="" method="POST" class="contacct">
+          
+              <input type="text" placeholder="Your Name" required="">
+         
+              <input type="email" placeholder="Email" required="">
+            
+              <input type="number" placeholder="Number" required="">
+           
+              <input type="text" placeholder="Location" required="">
+             
+              <textarea placeholder="Message" rows="7"></textarea>
+            
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- <banner> -->
   <!-- Counter -->
 
@@ -126,7 +153,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-6">
-          <img src="images/about_us_img.jpg" id="img-abt" alt="about-us">
+          <img src="images/About-us.png" id="img-abt" alt="about-us">
         </div>
         <div class="col-md-6">
           <div class="main-about">
@@ -149,11 +176,11 @@
   <div class="gyna" id="gyna-id">
     <div class="container">
      
-</h2>
+
 <div class="row">
   <div class="col-md-6 col-sm-6">
-     <h2 class="first-small">Gynaecology
-</h2>
+     <!-- <h2 class="first-small">Gynaecology
+</h2> -->
       <h2 id="text-left">Category of Product Range</h2>
       <p class="para-text">Gynecology is a branch of healthcare segment that deals with the issues of Women’s Healthcare, particularly in the female reproductive system. This includes pregnancy and childbirth, menstruation and fertility, Sexually transmitted diseases and hormone disorder. We are providing a wide range of Gynae Products for the treatment of women’s sexually diseases. Moruf is one of the most emerging pharma companies for gynae range. Our gynae products are highly demanded in the Pharmaceutical market. In order to increase the visibility of our products, we are offering PCD Pharma Franchise for Gynae range. We are also offering Gynae Products Franchise at pan India level.<br>
 
@@ -161,13 +188,13 @@ We give equals rights and perks to our associates and believe in delivering mass
         </div>
    
       <div class="col-md-6 col-sm-6 round">
-        <img src="images/img6.png" alt="points" class="round-img">
+        <img src="images/Gynaecology.png" alt="points" class="round-img">
       </div>
 </div>
 </div>
 </div>
 
-  <div class="container text-center slide overflow-hidden">
+  <div class="container text-center slide overflow-hidden" id="product-range">
     <h2 style="color: #ea268f; font-weight: bold;">Our Products</h2>
     <div class="slider-logo">
       <div class="slick"><img src="images/CALMOF-C.jpg"></div>
@@ -188,7 +215,7 @@ We give equals rights and perks to our associates and believe in delivering mass
       <div class="row">
         <div class="col-sm-6 img-center">
           <div class="imges">
-            <img src="image/pcd-img.png" alt="gyna-id" width="100%" id="man">
+            <img src="images/PCD.png" alt="gyna-id" width="100%" id="man">
           </div>
         </div>
         <div class="col-sm-6">
@@ -198,7 +225,7 @@ We give equals rights and perks to our associates and believe in delivering mass
             <div class="about-section">
               <h2 style="font-weight: 600;
     color: #ea268f; text-align: left; text-transform: capitalize;">PCD Pharma Franchise</h2>
-              </span>
+            
             </div>
            <p class="para-text">With the increased demand for top-notch gynecology and obstetrics products, investing in Gynae PCD Franchise in India has become highly profitable. Moruf Life Sciences strives to meet the rising demand for women's reproductive healthcare products with continuous research and innovation. Our products are manufactured in WHO-GMP-certified facilities, ensuring premium quality and efficacy. By partnering with Moruf Life Sciences, you gain access to monopoly-based franchise rights, unmatched marketing support, and a chance to establish a successful business in the ever-growing gynecology segment. We offer Gynae PCD Franchise in India opportunities throughout India to maximize the reach of our product range. As a leading provider of Gynae PCD Franchise opportunities in India, we are committed to delivering excellence.<br>
 
@@ -211,23 +238,23 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
   </div>
 
 
-
+<div id="why-us">
   <div class="container text-center">
-    <div id="why-us"></div>
-    <h3 style="font-size: 40px; color: #e3258b; font-weight: bold;">Why Choose Us
+    
+    <h3 style="font-size: 40px; color: #e3258b; font-weight: bold;" id="why-heading">Why Choose Us
 </h3>
     
     <div class="row iso">
       <ul class="ul-list">
   <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/certificate.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/certified.png" alt="badge"></div>
     <div class="box-title">ISO 9001:2015<br> Certified
 </div>
     <div class="box-content">Moruf Lifesciences is an ISO certified Pharma company, committed to high quality products. We have also earned the right amount of trust, respect in the market.
 </div>
   </li>
   <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/high-quality.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/high-quality.png" alt="badge"></div>
     <div class="box-title">our quality approach
 </div>
     <div class="box-content">We are committed to follow the quality norms for manufacturing product. We formulate all our offered medicine as per the set quality norms.
@@ -235,7 +262,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
 </div>
   </li>
   <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/team.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/dedicated-workforce.png" alt="badge"></div>
     <div class="box-title">dedicated workforce
 </div>
     <div class="box-content">Our team members are quite diverse to create a comprehensive, hight-performance culture in our company, which will affect our business outcome.
@@ -243,7 +270,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
 </div>
   </li>
     <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/ethics.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/ethics.png" alt="badge"></div>
     <div class="box-title">ethics and compliance
 </div>
     <div class="box-content">Our policies and procedure are carefully designed that our company anf partners conduct business in a legal, ethical and responsible manner.
@@ -251,7 +278,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
 </div>
   </li>
     <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/trophy.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/awards and achievements.png" alt="badge"></div>
     <div class="box-title">awards and achievements
 </div>
     <div class="box-content">Over the past few years, we have received numerous distinguished awards and recognition's for formulating medicines as per the pharma industrial norms.
@@ -259,7 +286,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
 </div>
   </li>
     <li class="box-card" style="--accent-color: #ea268f">
-    <div class="box-icon"><img src="images/package.png" alt="badge"></div>
+    <div class="box-icon"><img src="images/Icons/packaging.png" alt="badge"></div>
     <div class="box-title">packaging
 </div>
     <div class="box-content">We make use of the proven techniques for packaging all the medicines. By using sch advanced techniques, we aim to ensure the leakage & backage proof delivery.
@@ -271,17 +298,17 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
     </div>
   </div>
   </div>
+ 
 
    <div class="downloads">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6">
           <h4 style="color: #fff;">Our Formulations Segment</h4>
-          <p style="color: #fff;">Third Party Manufacturing is a pharmaceutical formulation company engaged in
-            manufacturing<br> of Pharmaceutical finished Products.</p>
+          <p style="color: #fff;">At Moruf Lifesciences, we specialize in the high-quality manufacturing of pharmaceutical finished products.</p>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="images/Moruf-Catalogue.pdf"><img src="image/download-btn.png" alt="downloads" class="down-btn"></a>
+          <a href="images/Moruf-Catalogue.pdf"><img src="images/download-btn.png" alt="downloads" class="down-btn"></a>
         </div>
       </div>
     </div>
@@ -295,7 +322,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
       <div class="row iso p-3">
         <div class="blogs">
           <div class="blog-first">
-            <img src="images/blog-1.png">
+            <img src="images/Blog/How-Much-Invest.jpg">
           </div>
           <div class="blog-last">
             <h6>How To Increase Medicine Sales Of Your PCD Pharma Franchise</h6>
@@ -304,7 +331,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
         </div>
         <div class="blogs">
           <div class="blog-first">
-            <img src="images/blog-2.png">
+            <img src="images/Blog/PCD-Pharma-Companies.jpg">
           </div>
           <div class="blog-last">
             <h6>PCD Pharma Companies Products Price list</h6>
@@ -313,7 +340,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
         </div>
         <div class="blogs">
           <div class="blog-first">
-            <img src="images/blog-3.jpg">
+            <img src="images/Blog/How-To-Increase.jpg">
           </div>
           <div class="blog-last">
             <h6>How Much Invest is Required to Start PCD Pharma Franchise?</h6>
@@ -322,7 +349,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
         </div>
         <div class="blogs">
           <div class="blog-first">
-            <img src="images/blog-4.jpg">
+            <img src="images/Blog/Advantages-of-Monopoly-Basis.jpg">
           </div>
           <div class="blog-last">
             <h6>Advantages of Monopoly Basis of Pharmaceutical Industry</h6>
@@ -382,11 +409,11 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
      
      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32854.14750311711!2d76.833958!3d30.662430000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f95ce80b7492f%3A0xa920a869b1d44e02!2sMoruf%20Lifesciences%20(%20Gynae%20Pharmaceutical%20PCD%20Company%20)!5e1!3m2!1sen!2sin!4v1747906328142!5m2!1sen!2sin" width="100%" height="530" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        </div>
+        
       </div>
-
-    </div>
-  </div>
-  </div>
+      
+  
 
   
 
@@ -412,7 +439,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
               <li class="mr-2">
                 <a href="https://www.instagram.com/moruflifesciences7/?hl=en">
                   <i class="fa-brands fa-instagram"></i>
-                  </i>
+               
                 </a>
               </li>
            
@@ -436,7 +463,7 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
                 </a>
               </li>
               <li class="mb-1">
-                <a class="font-16 white" href="#about">
+                <a class="font-16 white" href="#about-us">
                   <img src="images/arrow.png" class="arrow-img"> About us
                 </a>
               </li>
@@ -470,28 +497,28 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
             </h4>
             <ul class="m-0 px-0   pt-md-3 list-none">
               <li class="mb-1">
-                <a class="font-16 white" href="#">
+                <a class="font-16 white" href="#product-range">
                   <img src="images/arrow.png" class="arrow-img"> Tablets
                 </a>
               </li>
               <li class="mb-1">
-                <a class="font-16 white" href="#">
+                <a class="font-16 white" href="#product-range">
                   <img src="images/arrow.png" class="arrow-img">Capsules
                 </a>
               </li>
 
               <li class="mb-1">
-                <a class="font-16 white" href="#">
+                <a class="font-16 white" href="#product-range">
                   <img src="images/arrow.png" class="arrow-img">Powder
                 </a>
               </li>
               <li class="mb-1">
-                <a class="font-16 white" href="#">
+                <a class="font-16 white" href="#product-range">
                   <img src="images/arrow.png" class="arrow-img">Sachet
                 </a>
               </li>
               <li class="mb-1">
-                <a class="font-16 white" href="#">
+                <a class="font-16 white" href="#product-range">
                   <img src="images/arrow.png" class="arrow-img">Syrup
                 </a>
               </li>              
@@ -539,12 +566,12 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
 
   <!-- float whatsapp and call -->
   <div class="bubble">
-    <a target="_blank" href="tel:+919888163636" class="call"><img src="image/call-float.png" alt="call"><label>Call
+    <a target="_blank" href="tel:+919888163636" class="call"><img src="images/call-float.png" alt="call"><label>Call
         Us</label></a>
     <a class="whats" href="https://api.whatsapp.com/send?phone=919888163636&amp;text=Hello" target="_blank"
       onclick=" ga('send', 'event', 'category-whatsapp', 'action-whatsapp', 'label-whatsapp', 1);"><img
-        src="image/whatsapp-float.png" alt="call"><label>Whatsapp</label></a>
-    <a class="download-list" href="images/Moruf-Catalogue.pdf" target="_blank"><img src="image/download-pdf-whit.png" id="downoad-pdf"
+        src="images/whatsapp-float.png" alt="call"><label>Whatsapp</label></a>
+    <a class="download-list" href="images/Moruf-Catalogue.pdf" target="_blank"><img src="images/download-pdf-whit.png" id="downoad-pdf"
         alt="downloads"><label>Download Product list</label></a>
   </div>
   <div class="footer-form">
@@ -569,9 +596,11 @@ For more information on Gynae PCD Pharma Franchise, you can reach us at +91-9888
         <textarea class="form-control" id="message" rows="3" placeholder="Your message" required=""></textarea>
       </div>
       <button type="submit" class="btn first btn-primary text-center">Submit</button>
+    
+    </div>
     </form>
-</div>
-</div>
+    </div>
+
   <!-- <scripts> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

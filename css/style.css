@@ -131,6 +131,7 @@ img#img-abt {
     margin: 0px;
     padding-top: 10px;
     line-height: 30px;
+    text-align: left;
 }
 /* .about-section {
     padding-bottom: 10px;
@@ -259,16 +260,19 @@ width:100%
 .row.iso {
     padding-top: 10px;
 }
-.gyna {
+div#pharma-pcd {
     text-align: center;
-    padding: 50px 0 0px 0px;
-    background-image: url(image/map.png);
+    padding: 80px 0 60px 0px !important;
+    background-image: url(image/BG.png);
     background-position: center;
     background-size: cover;
-    
+}
+.col-md-6.col-sm-6.round {
+    align-items: center !important;   
+    text-align: center;
 }
 img.round-img {
-    width: 100%;
+    width: 500px;
 }
 .col-sm-6.img-center {
     text-align: center;
@@ -278,7 +282,7 @@ li {
     /* border-bottom: 1px solid; */
 }
 div#why-us {
-    padding: 24px 0px;
+    padding: 35px 0px;
 }
 .row.iso {
     padding-top: 15px;
@@ -327,6 +331,20 @@ footer {
     .navbar img.logo {
     width: 110px !important;
 }
+img.round-img {
+    width: 100% !important;
+    margin-top: 50px;
+}
+div#contact {
+    padding: 30px 0px 0px  0px !important;
+}
+footer {
+    background-color: #051f3a;
+    margin-top: 50px !important;
+}
+body, html {
+    overflow-x: hidden !important;
+}
     .container.text-center.slide {
         padding: 20px 0px 20px 0px;
     }
@@ -334,8 +352,7 @@ footer {
         margin-top: 25px;
     }
     .slick-initialized .slick-slide {
-    display: block;
-    border: 1px groove;    
+    display: block;  
 }
     .navbar img.logo {
     width: 110px !important;
@@ -349,7 +366,7 @@ footer {
         display: inline-block !important;
     }
     h2.first-small {
-        font-size: 60px;
+        font-size: 45px;
         background: linear-gradient(to top, #f9f9f9 0%, #f4f4f4 100%);
         -webkit-background-clip: text;
         background-clip: text;
@@ -357,11 +374,30 @@ footer {
         line-height: 25px;
         padding-top: 9px;
     }
+    h2#text-left {
+    font-size: 40px !important;
+}
+div#product-range h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+div#pharma-pcd h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center !important;
+}
+    .slick-slide img {
+    display: inline-block !important;
+    width: 300px !important; 
+    border: 1px groove;
+    border-radius: 5px;
+}
     h2.blur-about {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 65px;
+        font-size: 45px;
         line-height: 50px;
         padding-top: 13px;
         z-index: 999;
@@ -374,10 +410,14 @@ footer {
     }
     div#about-us {
         padding-top: 20px !important;
+        padding-bottom: 10px !important;
     }
     .blogs img {
         width: 100%;
     }
+    h1.mai-head {
+    font-size: 40px;
+}
     .blogs {
         width: 100%;
         text-align: left;
@@ -395,8 +435,15 @@ footer {
         width: 100%;
     }
 div#gyna-id {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+}
+div#pharma-pcd {
+    text-align: center;
+    padding: 50px 0 50px 0px !important !important;
+    background-image: url(image/BG.png);
+    background-position: center;
+    background-size: cover;
 }
 .form-control {
     display: block;
@@ -408,6 +455,23 @@ div#gyna-id {
     #text-left {
         text-align: left;
     }
+    div#pharma-pcd {   
+    padding: 80px 0 60px 0px !important;
+    background-image: url(image/BG.png);   
+    margin-top: 60px;
+}
+    div#product-range h2 {
+    margin-bottom: 50px;
+}
+h3#why-heading {
+    margin-bottom: 50px;
+    font-size: 45px !important;
+}
+div#blog h3 {
+    margin-bottom: 50px;
+    font-size: 45px !important;
+    margin-top: 10px;
+}
     .container.text-center.slide {
         padding: 58px 0px 30px 0px;
     }
@@ -426,21 +490,21 @@ h2.first-small {
     padding-top: 9px;
     text-align: left;
 }
-    h2.blur-about {
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 65px;
-        line-height: 50px;
-        padding-top: 13px;
-        z-index: 999;
-        margin-bottom: -12px;
-        opacity: .07;
-        font-weight: 900;
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.69) 50%, rgba(255, 255, 255, 0.23) 103.79%, rgba(255, 255, 255, 0.23) 178.36%);
-        text-transform: capitalize;
-        letter-spacing: 2px;
-    }
+h2.blur-about {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+    line-height: 50px;
+    padding-top: 13px;
+    z-index: 999;
+    margin-bottom: -12px;
+    opacity: .07;
+    font-weight: 900;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.69) 50%, rgb(234 38 143) 103.79%, rgb(234 38 143) 178.36%);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
    
     .blogs img {
         width: 100%;
@@ -617,12 +681,12 @@ i.fa-solid.fa-phone {
     var(--shadowInsetDark);
   background-image: var(--bgGradient);
 }
-.box-card .box-title{
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #ea268f;
-  text-align: center;
-  text-transform: uppercase
+.box-card .box-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
 }
 .box-card .box-content{
   padding: 1rem;
@@ -665,3 +729,103 @@ li.box-card:hover {
     transform: scaleX(-1);
     z-index: 999 !important;
 }
+.justify-content-start.p-0.m-0 li.mr-2:hover {
+    transform: translateY(10px);
+}
+.box-icon img {
+    width: 64px;
+}
+.banner-div{
+    position: relative;
+}
+div#form-banner {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+.form-color {
+    background: #ea268f;
+    z-index: 99;
+}
+@media (min-width: 768px) {
+.form-color {
+    background: #20202030;
+    width: 30%;
+}
+}
+.contacct {
+    display: flex;
+    flex-direction: column;
+}
+form.contacct input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px 17px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.48);
+}
+form.contacct textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 17px;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.48);
+    outline: none;
+    height: 100px;
+}
+div#form-banner .contacct button {
+    background: #ea268f;
+    padding: 12px 33px;
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+@media only screen and (max-width: 768px) {
+    div#form-banner {
+        position: relative !important;
+        top: 40px;
+        width: 100%;
+        height: 100%;
+        padding: 0px 15px 50px 15px !important;
+    }
+    div#form-banner .contacct button {
+    background: #000 !important;
+    padding: 12px 33px;
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+}
+/* nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent !important;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary.fixed{
+    position: fixed !important;
+    top: 0 !important;
+    transition: 0.2s cubic-bezier(0, 0.54, 0, 1.08) all;
+    width: 100% !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #fff !important;
+    z-index: 999;
+}
+.top-header {
+    display: none;
+} */
