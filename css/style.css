@@ -754,6 +754,9 @@ div#banner-form {
     background: #20202030;
     width: 30%;
 }
+.quick-link.col-md-4 {
+    line-height: 30px;
+}
 }
 .contact-cls {
     display: flex;
@@ -798,6 +801,21 @@ div#banner-form .contact-cls button {
         height: 100%;
         padding: 0px 15px 50px 15px !important;
     }
+    p.mt-md-4.font-14.white {
+    margin-top: 15px;
+}
+.quick-link.col-md-4 {
+    margin-top: 20px;
+    line-height: 33px;
+}
+.contact-area.col-md-4 {
+    margin-top: 25px;
+    line-height: 33px;
+}
+.downloads {
+    background-image: linear-gradient(119deg, #e9298f, #000);
+    padding: 60px 0 !important; 
+}
     div#banner-form .contact-cls button {
     background: #000 !important;
     padding: 12px 33px;
